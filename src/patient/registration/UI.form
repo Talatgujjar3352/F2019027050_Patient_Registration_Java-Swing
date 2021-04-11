@@ -608,21 +608,25 @@
     <Component class="javax.swing.JCheckBox" name="jbox_active">
       <Properties>
         <Property name="text" type="java.lang.String" value="Active"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JCheckBox" name="jbox_died">
       <Properties>
         <Property name="text" type="java.lang.String" value="Died"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JCheckBox" name="jbox_govt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Govt Employee"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JCheckBox" name="jbox_confidential">
       <Properties>
         <Property name="text" type="java.lang.String" value="Confidential"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btn_Reports">
@@ -647,6 +651,7 @@
           <Image iconType="3" name="/picture_20px.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Attach Pic"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btn_new">
@@ -663,6 +668,7 @@
           <Image iconType="3" name="/edit_property_20px.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Edit"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btn_order">

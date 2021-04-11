@@ -287,12 +287,16 @@ public class UI extends javax.swing.JFrame {
         });
 
         jbox_active.setText("Active");
+        jbox_active.setEnabled(false);
 
         jbox_died.setText("Died");
+        jbox_died.setEnabled(false);
 
         jbox_govt.setText("Govt Employee");
+        jbox_govt.setEnabled(false);
 
         jbox_confidential.setText("Confidential");
+        jbox_confidential.setEnabled(false);
 
         btn_Reports.setIcon(new javax.swing.ImageIcon(getClass().getResource("/graph_report_20px.png"))); // NOI18N
         btn_Reports.setText("Reports");
@@ -302,12 +306,14 @@ public class UI extends javax.swing.JFrame {
 
         btn_attach.setIcon(new javax.swing.ImageIcon(getClass().getResource("/picture_20px.png"))); // NOI18N
         btn_attach.setText("Attach Pic");
+        btn_attach.setEnabled(false);
 
         btn_new.setIcon(new javax.swing.ImageIcon(getClass().getResource("/add_20px.png"))); // NOI18N
         btn_new.setText("New");
 
         btn_edit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edit_property_20px.png"))); // NOI18N
         btn_edit.setText("Edit");
+        btn_edit.setEnabled(false);
 
         btn_order.setIcon(new javax.swing.ImageIcon(getClass().getResource("/add_shopping_cart_20px.png"))); // NOI18N
         btn_order.setText("Order");
